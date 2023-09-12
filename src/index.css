@@ -1,0 +1,31 @@
+/* Google Fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+/* General Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App Component */
+
+@import url("App.css");
+
+/* Form Component */
+
+@import url("./components/form/form.css");
+
+/*/ TodoList Component /*/
+
+@import url("./components/todoList/todoList.css");
+
+/*/ Todo Component /*/
+
+@import url("./components/todo/todo.css");
+
+/* Responsive Style */
+
+@import url("./responsive.css");

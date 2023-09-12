@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  header {
+    font-size: 1.5rem;
+  }
+
+  .todo-list {
+    min-width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .select {
+    position: absolute;
+    margin-top: 10rem;
+  }
+
+  .todo-container {
+    margin-top: 10rem;
+  }
+
+  .no-tasks {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    font-size: 1.2rem;
+    min-height: 10vh;
+  }
+
+  form input,
+  form button {
+    font-size: 1rem;
+    min-height: 6vh;
+  }
+
+  select {
+    width: 17rem;
+  }
+
+  .todo-list {
+    min-width: 70%;
+  }
+}
